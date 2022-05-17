@@ -1,0 +1,9 @@
+{
+  "name": "gatsby-remark-directive",
+  "description": "Remark directives",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "remark-directive": "1.0.1"
+  }
+}

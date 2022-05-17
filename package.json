@@ -1,0 +1,38 @@
+{
+  "name": "intfiction.org.ua",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ukrainian Interactive Fiction website",
+  "author": "Serhii Mozhaiskyi",
+  "scripts": {
+    "start": "gatsby clean && gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "bulma": "0.9.3",
+    "cyrillic-to-translit-js": "3.1.0",
+    "gatsby": "4.13.1",
+    "gatsby-awesome-pagination": "0.3.8",
+    "gatsby-plugin-react-helmet": "5.13.0",
+    "gatsby-plugin-sass": "5.13.0",
+    "gatsby-plugin-sharp": "4.13.0",
+    "gatsby-remark-autolink-headers": "5.13.0",
+    "gatsby-remark-copy-linked-files": "5.13.0",
+    "gatsby-remark-images": "6.13.0",
+    "gatsby-remark-smartypants": "5.13.0",
+    "gatsby-remark-table-of-contents": "2.0.0",
+    "gatsby-source-filesystem": "4.13.0",
+    "gatsby-transformer-remark": "5.13.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-helmet": "6.1.0",
+    "remark-directive": "1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "eslint-config-airbnb": "19.0.4"
+  }
+}

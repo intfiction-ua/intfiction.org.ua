@@ -1,0 +1,10 @@
+{
+  "name": "gatsby-remark-directive-tag",
+  "description": "Tags with Remark directives",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "hastscript": "7.0.2",
+    "unist-util-visit": "4.1.0"
+  }
+}

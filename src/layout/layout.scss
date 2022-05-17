@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+//@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+// Lora
+// @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+// Noto Serif
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Mono:wght@400;700&display=swap');
+
+$primary: #4281A4;
+$info: #9CAFB7;
+//$warning: #EAD2AC;
+$warning: #FFD082;
+$danger: #FE938C;
+
+//$body-background-color: #fefdfa;
+$body-line-height: 1.6;
+$family-primary: 'Fira Sans Condensed', 'Arial', sans-serif;
+$family-secondary: 'Noto Serif', "Georgia", serif;
+$family-monospace: 'Fira Mono', monospace;
+
+// $box-shadow: none;
+$notification-radius: 2px;
+$notification-padding: 1rem 1.5rem 1rem 1rem;
+
+// let's make optimization later
+@import "~bulma/bulma.sass";
+
+#intfiction-logo {
+  border: 3px solid #FFFFFF;
+  border-radius: 20%;
+  background-color: white;
+  margin-left: 0.5em;
+  max-height: 4em;
+}
+
+.hoverable_link {
+  :hover {
+    color: $link;
+  }
+}
+
+code {
+  color: $link-dark;
+}
+
+.intfiction-sidebar-tile {
+  @include mobile {
+    margin: 0rem !important;
+    padding: 0.75rem 2.5rem 0.75rem 1.5rem;
+  }
+}
+
+.intfiction-navbar-title {
+  font-size: 1.5rem;
+  flex-shrink: unset;
+}
+
+// margins
+.intfiction-sidebar {
+  @include mobile {
+    margin-top: -1.5rem;
+  }
+}
