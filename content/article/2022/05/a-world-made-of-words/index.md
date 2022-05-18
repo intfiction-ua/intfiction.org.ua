@@ -5,6 +5,8 @@ categories:
     - інтерактивна література
 tags:
     - переклад
+    - Inkle
+    - поради
 author: "Сергій “techniX” Можайський"
 translation: 
     author: "Jon Ingold"

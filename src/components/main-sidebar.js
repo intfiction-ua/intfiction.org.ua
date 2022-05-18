@@ -33,7 +33,7 @@ const Sidebar = () => (
       <Link to="/page/toolbox" className="subtitle">Майстерня</Link>
     </SidebarTile>
     <SidebarTile icon="/images/discord-logo-black.png">
-      <a href="https://discord.gg/dWdySHUJKV" className="subtitle">Наш Discord-сервер</a>
+      <a href="https://discord.gg/dWdySHUJKV" className="subtitle">Чат в Discord</a>
     </SidebarTile>
   </div>
 );

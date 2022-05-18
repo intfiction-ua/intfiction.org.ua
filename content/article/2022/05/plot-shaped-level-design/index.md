@@ -5,6 +5,7 @@ categories:
     - інтерактивна література
 tags:
     - переклад
+    - геймдизайн
 author: "Сергій “techniX” Можайський"
 translation: 
     author: "Емілі Шорт"
