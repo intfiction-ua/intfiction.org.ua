@@ -65,6 +65,7 @@ const gatsbyTransformerRemark = {
       },
       'gatsby-remark-autolink-headers',
       'gatsby-remark-smartypants',
+      'gatsby-remark-external-links',
     ],
   },
 };
