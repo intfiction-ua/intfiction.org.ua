@@ -74,6 +74,23 @@ const gatsbyPluginSharp = {
   options: {},
 };
 
+const gatsbyGoogleAnalytics = {
+  resolve: 'gatsby-plugin-google-gtag',
+  options: {
+    trackingIds: [
+      'G-BTT1N2WZZT',
+    ],
+    gtagConfig: {
+      anonymize_ip: true,
+      cookie_expires: 0,
+    },
+    pluginConfig: {
+      head: false,
+      respectDNT: true,
+    },
+  },
+};
+
 module.exports = {
   siteMetadata: {
     title: 'Українська Інтерактивна Література',
@@ -87,5 +104,6 @@ module.exports = {
     gatsbyPluginSass,
     gatsbyPluginSharp,
     gatsbyTransformerRemark,
+    gatsbyGoogleAnalytics,
   ],
 };
