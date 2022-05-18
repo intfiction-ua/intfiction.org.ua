@@ -16,6 +16,7 @@ const Seo = ({
   return (
     <Helmet title={seoTitle}>
       <html lang={config.siteLanguage} />
+      <link rel="alternate" type="application/rss+xml" href={config.siteRss} title={config.siteTitle} />
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />

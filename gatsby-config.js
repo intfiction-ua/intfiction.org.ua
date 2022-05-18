@@ -92,9 +92,67 @@ const gatsbyGoogleAnalytics = {
   },
 };
 
+const gatsbyPluginFeed = {
+  resolve: 'gatsby-plugin-feed',
+  options: {
+    query: `
+      {
+        site {
+          siteMetadata {
+            title
+            description
+            siteUrl
+            site_url: siteUrl
+          }
+        }
+      }
+    `,
+    feeds: [
+      {
+        serialize: ({ query: { site, allMarkdownRemark } }) => (
+          allMarkdownRemark.nodes.map((node) => ({
+            ...node.frontmatter,
+            description: node.excerpt,
+            date: node.frontmatter.date,
+            url: site.siteMetadata.siteUrl + node.fields.slug,
+            guid: site.siteMetadata.siteUrl + node.fields.slug,
+            // custom_elements: [ { 'content:encoded': node.html } ],
+          }))
+        ),
+        query: `
+          query {
+            allMarkdownRemark(
+              filter: { fields: { nodeType: { eq: "article" } } }
+              sort: { fields: [frontmatter___date], order: DESC }
+              limit: 10
+            )
+            {
+              nodes {
+                fields {
+                  slug
+                  tags
+                  categories
+                }
+                excerpt
+                frontmatter {
+                  title
+                  date
+                }
+              }
+            }
+          }
+        `,
+        output: '/rss.xml',
+        title: 'Українська Інтерактивна Література',
+      },
+    ],
+  },
+};
+
 module.exports = {
   siteMetadata: {
     title: 'Українська Інтерактивна Література',
+    description: 'Сайт української спільноти авторів та любителів інтерактивної літератури',
     siteUrl: 'https://intfiction.org.ua',
   },
   plugins: [
@@ -102,6 +160,7 @@ module.exports = {
     filesArticles,
     filesPages,
     'gatsby-plugin-react-helmet',
+    gatsbyPluginFeed,
     gatsbyPluginSass,
     gatsbyPluginSharp,
     gatsbyTransformerRemark,
