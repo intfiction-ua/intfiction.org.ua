@@ -17,7 +17,7 @@ title: Майстерня
 - [TADS](http://www.tads.org/)
 - [Adventuron](https://adventuron.io/)
 
-### Choice-based
+### Вибор варіантів дії
 
 - [ChoiceScript](https://www.choiceofgames.com/make-your-own-games/choicescript-intro/)
 - [Ink](https://www.inklestudios.com/ink/)
