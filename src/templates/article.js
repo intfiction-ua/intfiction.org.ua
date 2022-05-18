@@ -14,11 +14,15 @@ const TranslationInfo = ({ content }) => (
 
 const Article = ({ data }) => {
   const postNode = data.markdownRemark;
-  const { frontmatter, fields } = postNode;
+  const { frontmatter, fields, excerpt } = postNode;
   return (
     <Layout>
       <main>
-        <SEO title={frontmatter.title} />
+        <SEO
+          title={frontmatter.title}
+          description={excerpt}
+          path={fields.slug}
+        />
         <div className="content is-family-secondary mx-4">
           <h1>{frontmatter.title}</h1>
           <ArticleInfo

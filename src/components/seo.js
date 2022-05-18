@@ -10,7 +10,9 @@ const Seo = ({
   children = null,
   canonicalUrl = '',
 }) => {
-  const seoTitle = title ? `${title} | ${config.siteTitle}` : config.siteTitle;
+  const seoTitle = title || config.siteTitle;
+  const seoType = title ? 'article' : 'website';
+  const url = `${config.siteUrl}${path}`;
   return (
     <Helmet title={seoTitle}>
       <html lang={config.siteLanguage} />
@@ -23,15 +25,17 @@ const Seo = ({
       <meta name="theme-color" content="#ffffff" />
       <meta name="description" content={description} />
       <meta name="image" content={image} />
+      <meta property="og:site_name" content="intfiction.org.ua" />
+      <meta property="og:type" content={seoType} />
+      <meta property="og:url" content={url} />
       <meta property="og:title" content={seoTitle} />
-      <meta property="og:url" content={`${config.siteUrl}${path}`} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
-      <meta property="og:type" content="website" />
       <meta property="og:image:alt" content={description} />
+      <meta property="og:locale" content={config.siteLocale} />
       <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:url" content={url} />
       <meta name="twitter:title" content={seoTitle} />
-      <meta name="twitter:url" content={`${config.siteUrl}${path}`} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
       <meta name="twitter:image:alt" content={description} />

@@ -6,7 +6,7 @@ const config = {
     'Українська інтерактивна література', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml', // Path to the RSS file.
   siteLanguage: 'uk',
-  // googleAnalyticsID: 'UA-161211056-1', // GA tracking ID.
+  siteLocale: 'uk_UA',
 };
 
 module.exports = config;
