@@ -13,6 +13,8 @@ title: Майстерня
 ### Парсер
 
 - [Inform](http://inform7.com/)
+    - [Vorple](https://vorple-if.com/)
+    - [PunyInform](https://github.com/johanberntsson/PunyInform)
 - [Dialog](https://linusakesson.net/dialog/)
 - [TADS](http://www.tads.org/)
 - [Adventuron](https://adventuron.io/)
@@ -28,11 +30,16 @@ title: Майстерня
 
 - [Twine](https://twinery.org/)
 - [Undum](https://idmillington.github.io/undum/)
+- [Raconteur](https://sequitur.github.io/raconteur/)
+- [Windrift](https://github.com/lizadaly/windrift)
 
 ### Комбіновані
 
 - [RenPy](https://renpy.org/)
 - [Quest](http://textadventures.co.uk/quest/)
+- [Gruescript](https://versificator.itch.io/gruescript)
+- [Texture](https://texturewriter.com/)
+
 
 ---
 
@@ -69,3 +76,7 @@ title: Майстерня
 - [Incompetech](https://incompetech.com/)
 - [FreePD](https://freepd.com/)
 - [MusOpen](https://musopen.org/)
+
+
+## Інше
+- [Awesome Interactive Fiction](https://github.com/tajmone/awesome-interactive-fiction), колекція корисних посилань для авторів ІЛ

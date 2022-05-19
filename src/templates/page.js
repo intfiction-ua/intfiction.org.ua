@@ -16,9 +16,8 @@ const Page = ({ data, pageContext }) => {
         <SEO title={post.title} />
         <div className="content mx-4">
           <h1>{post.title}</h1>
-          <hr />
-          <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
-          <hr />
+          <article dangerouslySetInnerHTML={{ __html: postNode.html }} />
+          <br />
         </div>
       </main>
     </Layout>

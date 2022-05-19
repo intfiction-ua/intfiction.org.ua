@@ -2,7 +2,7 @@ import React from 'react';
 // import config from '../config';
 
 const Footer = () => (
-  <footer className="footer">
+  <footer className="notification is-primary">
     &nbsp;
   </footer>
 );
