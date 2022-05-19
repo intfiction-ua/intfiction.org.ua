@@ -32,6 +32,9 @@ const Sidebar = () => (
     <SidebarTile icon="/images/toolbox.png">
       <Link to="/page/toolbox" className="subtitle">Майстерня</Link>
     </SidebarTile>
+    <SidebarTile icon="/images/friends.png">
+      <Link to="/page/communities" className="subtitle">Інші спільноти</Link>
+    </SidebarTile>
     <SidebarTile icon="/images/discord-logo-black.png">
       <a href="https://discord.gg/dWdySHUJKV" className="subtitle">Чат в Discord</a>
     </SidebarTile>
