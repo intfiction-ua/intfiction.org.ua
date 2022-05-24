@@ -1,7 +1,6 @@
 import React from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import { convert2translit } from '../utils';
-// import _ from 'lodash';
 
 const renderTags = (tags, activeClassName) => (
   tags.sort((a, b) => a.fieldValue.localeCompare(b.fieldValue, 'uk-UA'))

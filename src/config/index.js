@@ -7,6 +7,7 @@ const config = {
   siteRss: '/rss.xml',
   siteLanguage: 'uk',
   siteLocale: 'uk_UA',
+  gtagId: 'G-BTT1N2WZZT', // Google Analytics tag
 };
 
 module.exports = config;

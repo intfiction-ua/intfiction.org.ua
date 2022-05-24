@@ -1,3 +1,5 @@
+const config = require('./src/config');
+
 const filesStatic = {
   resolve: 'gatsby-source-filesystem',
   options: {
@@ -79,7 +81,7 @@ const gatsbyGoogleAnalytics = {
   resolve: 'gatsby-plugin-google-gtag',
   options: {
     trackingIds: [
-      'G-BTT1N2WZZT',
+      config.gtagId,
     ],
     gtagConfig: {
       anonymize_ip: true,
@@ -142,8 +144,8 @@ const gatsbyPluginFeed = {
             }
           }
         `,
-        output: '/rss.xml',
-        title: 'Українська Інтерактивна Література',
+        output: config.siteRss,
+        title: config.siteTitle,
       },
     ],
   },
@@ -163,9 +165,9 @@ const gatsbyPurgeCSS = {
 
 module.exports = {
   siteMetadata: {
-    title: 'Українська Інтерактивна Література',
-    description: 'Сайт української спільноти авторів та любителів інтерактивної літератури',
-    siteUrl: 'https://intfiction.org.ua',
+    title: config.siteTitle,
+    description: config.siteDescription,
+    siteUrl: config.siteUrl,
   },
   plugins: [
     filesStatic,
