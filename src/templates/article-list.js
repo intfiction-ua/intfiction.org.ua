@@ -7,7 +7,7 @@ import ArticleBrowser from '../components/article-browser';
 const Articles = ({ pageContext, data }) => (
   <Layout>
     <main>
-      <SEO />
+      <SEO title="Статті" />
       <ArticleBrowser
         data={data.allMarkdownRemark.edges}
         context={pageContext}
