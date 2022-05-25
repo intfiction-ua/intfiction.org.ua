@@ -1,9 +1,15 @@
 import React from 'react';
-// import config from '../config';
+import { Link } from 'gatsby';
+import config from '../config';
 
 const Footer = () => (
   <footer className="notification is-primary">
-    &nbsp;
+    <nav className="breadcrumb has-dot-separator is-small">
+      <ul>
+        <li><Link to={config.siteRss}>RSS</Link></li>
+        <li><Link to={config.siteMap}>Sitemap</Link></li>
+      </ul>
+    </nav>
   </footer>
 );
 

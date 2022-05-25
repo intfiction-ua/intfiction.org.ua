@@ -5,6 +5,7 @@ const config = {
   siteDescription:
     'Сайт української спільноти авторів та любителів інтерактивної літератури',
   siteRss: '/rss.xml',
+  siteMap: '/sitemap/sitemap-index.xml',
   siteLanguage: 'uk',
   siteLocale: 'uk_UA',
   gtagId: 'G-BTT1N2WZZT', // Google Analytics tag
