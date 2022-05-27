@@ -26,6 +26,7 @@ const Seo = ({
       <meta name="msapplication-TileColor" content="#ffc40d" />
       <meta name="theme-color" content="#ffffff" />
       <meta name="description" content={description} />
+      <meta name="keywords" content={config.siteKeywords.join(',')} />
       <meta name="image" content={image} />
       <meta property="og:site_name" content="intfiction.org.ua" />
       <meta property="og:type" content={seoType} />
