@@ -7,7 +7,7 @@ import ArticleBrowser from '../components/article-browser';
 const ArticlesByTag = ({ pageContext, data }) => (
   <Layout>
     <main>
-      <SEO title={`Статті за тегом "${pageContext.category}"`} />
+      <SEO title={`Статті за тегом "${pageContext.tag}"`} />
       <div className="content mx-4">
         <h1 className="title"><Link to="/articles">Статті</Link> за тегом “{pageContext.tag}”</h1>
         <hr />
