@@ -4,13 +4,14 @@ import config from '../config';
 
 const Seo = ({
   title,
-  description = config.siteDescription,
+  description,
   path = '/',
   image = config.siteLogo,
   children = null,
   canonicalUrl = '',
 }) => {
   const seoTitle = title || config.siteTitle;
+  const seoDescription = description || config.siteDescription;
   const seoType = title ? 'article' : 'website';
   const url = `${config.siteUrl}${path}`;
   return (
@@ -25,23 +26,23 @@ const Seo = ({
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
       <meta name="msapplication-TileColor" content="#ffc40d" />
       <meta name="theme-color" content="#ffffff" />
-      <meta name="description" content={description} />
+      <meta name="description" content={seoDescription} />
       <meta name="keywords" content={config.siteKeywords.join(',')} />
       <meta name="image" content={image} />
       <meta property="og:site_name" content="intfiction.org.ua" />
       <meta property="og:type" content={seoType} />
       <meta property="og:url" content={url} />
       <meta property="og:title" content={seoTitle} />
-      <meta property="og:description" content={description} />
+      <meta property="og:description" content={seoDescription} />
       <meta property="og:image" content={image} />
-      <meta property="og:image:alt" content={description} />
+      <meta property="og:image:alt" content={seoDescription} />
       <meta property="og:locale" content={config.siteLocale} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:url" content={url} />
       <meta name="twitter:title" content={seoTitle} />
-      <meta name="twitter:description" content={description} />
+      <meta name="twitter:description" content={seoDescription} />
       <meta name="twitter:image" content={image} />
-      <meta name="twitter:image:alt" content={description} />
+      <meta name="twitter:image:alt" content={seoDescription} />
       {canonicalUrl ? <link rel="canonical" href={canonicalUrl} /> : null}
       {children}
     </Helmet>
