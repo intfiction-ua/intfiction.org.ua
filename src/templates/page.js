@@ -13,7 +13,7 @@ const Page = ({ data, pageContext }) => {
   return (
     <Layout>
       <main>
-        <SEO title={post.title} />
+        <SEO title={post.title} description={post.description} />
         <div className="content mx-4">
           <h1>{post.title}</h1>
           <article dangerouslySetInnerHTML={{ __html: postNode.html }} />
@@ -33,6 +33,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        description
       }
       fields {
         slug
