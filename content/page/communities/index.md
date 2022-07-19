@@ -22,6 +22,7 @@ title: Інші спільноти
 ## Discord та Telegram
 
 - [Сад переплетених стежок](https://t.me/garden_of_forking_paths) `UA`
+- [Візуальні новели](https://t.me/ua_visual_novels) `UA`
 - [Twine Discord](https://discord.gg/n5dJvPp) `EN`
 - [Inkle Discord](https://discord.com/invite/inkle) `EN`
 - [Narrative Games Discord](https://discord.gg/4AMmJDkSqp) `EN`
