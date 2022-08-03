@@ -47,6 +47,10 @@ description: Статті та відео по теорії та практиц�
 - [Moments of Non-Choice](https://emshort.blog/2019/12/10/mailbag-moments-of-non-choice/)
 - [Beyond Branching: Quality-Based, Salience-Based, and Waypoint Narrative Structures](https://emshort.blog/2016/04/12/beyond-branching-quality-based-and-salience-based-narrative-structures/)
 - [By the Numbers: How to Write a Long Interactive Novel That Doesn’t Suck](https://www.choiceofgames.com/2011/07/by-the-numbers-how-to-write-a-long-interactive-novel-that-doesnt-suck/)
+- [Successful Reflective Choice in Interactive Narrative](https://catacalypto.wordpress.com/2018/06/19/successful-reflective-choices-in-interactive-narrative/)
+- [Achieving the Illusion of Agency](https://www.researchgate.net/publication/267225089_Achieving_the_Illusion_of_Agency)
+- [Meaningful Choices in Choice-Based Video Games](https://preview.mailerlite.io/preview/32702/emails/60358762878207927)
+- [Branching Infinity: Exploring the Many Structures of Interactive Fiction](https://catapult.co/dont-write-alone/stories/branching-infinity-exploring-the-many-structures-of-interactive-fiction-nat-mesnard)
 
 ### Карта та місце дії
 - [Various world models in IF](http://gameshelf.jmac.org/2015/04/various-world-models-in-if/)
@@ -54,6 +58,12 @@ description: Статті та відео по теорії та практиц�
 
 
 ## Драматургія
+
+### Структура
+- [Worldwide Story Structures](https://www.kimyoonmiauthor.com/post/641948278831874048/worldwide-story-structures)
+- [The Three-Act Structure is a Mirage](https://mythcreants.com/blog/the-three-act-structure-is-a-mirage/)
+- [Myth of Three-Act Structure](https://birthmoviesdeath.com/2013/12/11/hulks-screenwriting-101-excerpt-the-myth-of-3-act-structure)
+- [How Writing Instructors Forgo The Most Vital Fiction Lesson](https://mythcreants.com/blog/how-writing-instructors-forgo-the-most-vital-fiction-lesson/)
 
 ### Сюжет
 - [Plot, scene by scene](https://emshort.blog/2008/05/04/plot-scene-by-scene/)
@@ -101,6 +111,7 @@ description: Статті та відео по теорії та практиц�
 - [A Bestiary Of Player Agency](https://heterogenoustasks.wordpress.com/2014/09/22/a-bestiary-of-player-agency/)
 - [The Ultimate Choice in RPGs: Gameplay](https://www.gamedeveloper.com/business/the-ultimate-choice-in-rpgs-gameplay)
 - [What we can learn from indie fiction authors](https://www.gamedeveloper.com/business/what-we-can-learn-from-indie-fiction-authors)
+- [The Problem Of Failure](https://medium.com/@inklestudios/the-problem-of-failure-518ec9c1c53e)
 
 ## Практика
 
@@ -126,6 +137,7 @@ description: Статті та відео по теорії та практиц�
 - [The problem with branching](https://www.failbettergames.com/the-problem-with-branching/)
 - [Development Process for Storylet-based Interactive Fiction](https://emshort.blog/2020/02/18/mailbag-development-process-for-storylet-based-interactive-fiction/)
 - [Echo Bazaar Narrative Structures, part one](http://www.failbettergames.com/echo-bazaar-narrative-structures-part-one/)
+- [Narrative Lego](https://threadreaderapp.com/thread/1478133570820476929.html)
 
 ### Обзори
 - [80 Days: Building the perfect text adventure for mobile](https://www.gamedeveloper.com/business/-i-80-days-i-building-the-perfect-text-adventure-for-mobile)
@@ -139,6 +151,7 @@ description: Статті та відео по теорії та практиц�
 - [How I do playtests](https://auroriax.com/how-i-do-playtests)
 - [The simulation dream](https://www.gamedeveloper.com/design/the-simulation-dream)
 - [The complexity fallacy](https://frictionalgames.blogspot.com/2017/06/the-complexity-fallacy.html)
+- [What Does Your Narrative System Need To Do](https://emshort.blog/2022/04/09/what-does-your-narrative-system-need-to-do/)
 
 ## Відео
 - [Sparkling Dialogue: A Masterclass](https://www.youtube.com/watch?v=_vRfNtvFVRo ) (Jon Ingold, Inkle)
@@ -152,6 +165,7 @@ description: Статті та відео по теорії та практиц�
 - [Feeding the Maw: Managing a Live Narrative Game in Fallen London](https://www.youtube.com/watch?v=pZp9g7Iumj8) (Olivia Wood, Failbetter Games)
 - [Rendering Game Worlds in Text](https://www.youtube.com/watch?v=CDDYeJznOhY)
 - [Конференція Narrascope-2020](https://www.youtube.com/playlist?list=PLbTgViUvfche3d2R99wDG1JmKJVBEl2wf)
+- [The Burden of Proof: Narrative Deduction Mechanics for Video Games](https://www.gdcvault.com/play/1027723/The-Burden-of-Proof-Narrative)
 
 ## Інші посилання
 - [Awesome Interactive Fiction](https://github.com/tajmone/awesome-interactive-fiction)
