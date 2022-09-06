@@ -21,19 +21,19 @@ const SidebarTile = ({
 const Sidebar = () => (
   <div className="intfiction-sidebar">
     <SidebarTile icon="/images/white-book.png">
-      <Link to="/page/what-is-interactive-literature" className="subtitle is-fullwidth">Що таке ІЛ</Link>
+      <Link to="/page/what-is-interactive-literature/" className="subtitle is-fullwidth">Що таке ІЛ</Link>
     </SidebarTile>
     <SidebarTile icon="/images/papers.png">
-      <Link to="/articles" className="subtitle">Статті</Link>
+      <Link to="/articles/" className="subtitle">Статті</Link>
     </SidebarTile>
     <SidebarTile icon="/images/book-pile.png">
-      <Link to="/page/library" className="subtitle">Бібліотека</Link>
+      <Link to="/page/library/" className="subtitle">Бібліотека</Link>
     </SidebarTile>
     <SidebarTile icon="/images/toolbox.png">
-      <Link to="/page/toolbox" className="subtitle">Майстерня</Link>
+      <Link to="/page/toolbox/" className="subtitle">Майстерня</Link>
     </SidebarTile>
     <SidebarTile icon="/images/friends.png">
-      <Link to="/page/communities" className="subtitle">Інші спільноти</Link>
+      <Link to="/page/communities/" className="subtitle">Інші спільноти</Link>
     </SidebarTile>
     <SidebarTile icon="/images/discord-logo-black.png">
       <a href="https://discord.gg/dWdySHUJKV" className="subtitle">Чат в Discord</a>

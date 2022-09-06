@@ -7,7 +7,7 @@ const renderTags = (tags, activeClassName) => (
     .map((tag) => (
       <li>
         <Link
-          to={`/tag/${convert2translit(tag.fieldValue)}`}
+          to={`/tag/${convert2translit(tag.fieldValue)}/`}
           key={tag.fieldValue}
           activeClassName={activeClassName}
         >

@@ -9,7 +9,7 @@ const ArticlesByCategory = ({ pageContext, data }) => (
     <main>
       <SEO title={`Статті в категорії "${pageContext.category}"`} />
       <div className="content mx-4">
-        <h1 className="title"><Link to="/articles">Статті</Link> в категорії “{pageContext.category}”</h1>
+        <h1 className="title"><Link to="/articles/">Статті</Link> в категорії “{pageContext.category}”</h1>
         <hr />
       </div>
       <ArticleBrowser

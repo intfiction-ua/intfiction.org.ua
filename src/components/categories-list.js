@@ -7,7 +7,7 @@ const renderCategories = (categories, activeClassName) => (
     .map((category) => (
       <li>
         <Link
-          to={`/category/${convert2translit(category.fieldValue)}`}
+          to={`/category/${convert2translit(category.fieldValue)}/`}
           key={category.fieldValue}
           activeClassName={activeClassName}
         >

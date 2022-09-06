@@ -4,7 +4,7 @@ import { convert2translit } from '../utils';
 
 const Tag = (name) => (
   <span className="tag" key={name}>
-    <Link to={`/tag/${convert2translit(name)}`}>{name}</Link>
+    <Link to={`/tag/${convert2translit(name)}/`}>{name}</Link>
   </span>
 );
 
