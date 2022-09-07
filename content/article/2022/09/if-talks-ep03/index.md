@@ -308,7 +308,7 @@ author: "Сергій “techniX” Можайський"
 ---
 **techniX**
 
-Я дуже багато чув про [Хігураші](https://en.wikipedia.org/wiki/Higurashi_When_They_Cry) (Higurashi no Naku Koro ni, "Коли плачуть цикади"), в телеграм-чаті любителів ВН заклики "читати цикад" стали місцевим мемом. Чи дійсно вона настільки гарна, і якщо так, то чому?
+Я дуже багато чув про [Хігураші](https://en.wikipedia.org/wiki/Higurashi_When_They_Cry) (Higurashi no Naku Koro ni, "Коли плачуть цикади"), в [телеграм-чаті любителів ВН](https://t.me/ua_visual_novels) заклики "читати цикад" стали місцевим мемом. Чи дійсно вона настільки гарна, і якщо так, то чому?
 
 ---
 **Drama[Theurgist]**
