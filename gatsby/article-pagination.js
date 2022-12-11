@@ -1,5 +1,5 @@
 const path = require('path');
-const { paginate } = require('gatsby-awesome-pagination');
+const { paginate } = require('./awesome-pagination');
 
 const ITEMS_PER_PAGE = 5;
 
