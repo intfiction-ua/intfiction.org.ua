@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Layout from '../layout';
 import SEO from '../components/seo';
 import Sidebar from '../components/main-sidebar';
@@ -15,6 +15,9 @@ const Main = ({ data }) => (
         </div>
         <div className="column">
           <ArticleList articles={data.allMarkdownRemark.edges} />
+          <div className="block has-text-centered is-size-4 pb-4">
+            <Link to="/articles/">Всі статті</Link>
+          </div>
         </div>
       </div>
     </main>
