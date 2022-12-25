@@ -29,6 +29,7 @@ description: Статті та відео по теорії та практиц�
 - [Idea to Implementation](https://emshort.blog/2009/08/23/idea-to-implementation/)
 - [Macro to Micro Ideas](https://emshort.blog/2021/10/05/mailbag-macro-to-micro-ideas/)
 - [How I Find/Steal/Grind Out My Game Ideas](https://bottomfeeder.substack.com/p/how-i-findstealgrind-out-my-game)
+- [13 Tips For Writing a Good Text Adventure Game](https://www.davidepesce.com/2020/02/26/13-tips-for-writing-a-good-text-adventure-game/)
 
 ### Парсер
 - [Towards a Theory of Parserless Parser Interfaces](http://brunodias.space/2017/05/06/parserless-parser/)
@@ -37,7 +38,7 @@ description: Статті та відео по теорії та практиц�
 ### Вибір
 - [Standard Patterns in Choice-Based Games](https://heterogenoustasks.wordpress.com/2015/01/26/standard-patterns-in-choice-based-games/)
 - [Small-Scale Structures in CYOA](https://emshort.blog/2016/11/05/small-scale-structures-in-cyoa/)
-- [Improving Player Choices](https://www.gamasutra.com/view/feature/130452/improving_player_choices.php)
+- [Improving Player Choices](https://www.gamedeveloper.com/design/improving-player-choices)
 - [Choices in the context of context](https://threeedgedsword.wordpress.com/2011/06/21/choices-in-the-context-of-context/)
 - [A Taxonomy of Choices: Establishing Character](https://www.choiceofgames.com/2017/12/a-taxonomy-of-choices-establishing-character/)
 - [A Taxonomy of Choices: Axes of Choice](https://www.choiceofgames.com/2017/12/a-taxonomy-of-choices-axes-of-choice/)
@@ -100,6 +101,8 @@ description: Статті та відео по теорії та практиц�
 - [Navigating the Jungle of Storytelling Advice](https://mythcreants.com/blog/blog-series/navigating-the-jungle-of-storytelling-advice/)
 - [Five Concepts for Becoming a Better Storyteller](https://mythcreants.com/blog/five-concepts-for-becoming-a-better-storyteller/)
 - [How to remove the frustration of reading in games](https://www.gamedeveloper.com/design/how-to-remove-the-frustration-of-reading-in-games)
+- [Ten Ways to Inspire Your Description](https://mythcreants.com/blog/ten-ways-to-inspire-your-description/)
+- [Six Common Storytelling Problems in New Manuscripts](https://mythcreants.com/blog/six-common-storytelling-problems-in-new-manuscripts/)
 
 
 ### Різне
@@ -112,6 +115,7 @@ description: Статті та відео по теорії та практиц�
 - [The Ultimate Choice in RPGs: Gameplay](https://www.gamedeveloper.com/business/the-ultimate-choice-in-rpgs-gameplay)
 - [What we can learn from indie fiction authors](https://www.gamedeveloper.com/business/what-we-can-learn-from-indie-fiction-authors)
 - [The Problem Of Failure](https://medium.com/@inklestudios/the-problem-of-failure-518ec9c1c53e)
+- [Mishaps in the preview text of choice-based adventure games](https://www.destructoid.com/mishaps-in-the-preview-text-of-choice-based-adventure-games-story-beat/)
 
 ## Практика
 
@@ -139,11 +143,16 @@ description: Статті та відео по теорії та практиц�
 - [Echo Bazaar Narrative Structures, part one](http://www.failbettergames.com/echo-bazaar-narrative-structures-part-one/)
 - [Narrative Lego](https://threadreaderapp.com/thread/1478133570820476929.html)
 
-### Обзори
+### Огляди та аналіз ігор
 - [80 Days: Building the perfect text adventure for mobile](https://www.gamedeveloper.com/business/-i-80-days-i-building-the-perfect-text-adventure-for-mobile)
 - [Skyrim rendered in text](https://medium.com/@filiph/skyrim-rendered-in-text-1899548ab2c4) - про розробку гри Insignificant Little Vermin
 - [Ten Great Adventure-Game Puzzles](https://www.filfre.net/2018/11/ten-great-adventure-game-puzzles/)
 - [Stephen Granade on Live on Mars?](http://granades.com/games/life-on-mars-review/Life-on-Mars-review.html)
+- [Here's why *Beacon Pines'* branching structure is brilliant](https://www.gamedeveloper.com/blogs/here-s-why-beacon-pines-branching-structure-is-brilliant)
+- [Pursuing the "Aha!" moment with deductive reasoning game *The Case of the Golden Idol*](https://www.gamedeveloper.com/design/case-of-the-golden-idol)
+- [How to design for impact and narrative variance with *Roadwarden*](https://www.gamedeveloper.com/design/deep-dive-roadwarden)
+- [Curating meaningful multiplayer narrative choices in *Doomsday Paradise*](https://www.gamedeveloper.com/design/deep-dive-multiplayer-narrative-in-doomsday-paradise)
+- [Rebalancing *Bee*](https://emshort.blog/2022/09/06/rebalancing-bee/)
 
 ### Різне
 - [A Procedurally Generated Wilderness (In Text)](http://www.sibylmoon.com/a-procedurally-generated-wilderness/)
@@ -152,6 +161,14 @@ description: Статті та відео по теорії та практиц�
 - [The simulation dream](https://www.gamedeveloper.com/design/the-simulation-dream)
 - [The complexity fallacy](https://frictionalgames.blogspot.com/2017/06/the-complexity-fallacy.html)
 - [What Does Your Narrative System Need To Do](https://emshort.blog/2022/04/09/what-does-your-narrative-system-need-to-do/)
+- [Chinese Interactive Story Games – The Unicorn of the Subgenres](https://www.gamerefinery.com/chinese-interactive-story-games-the-unicorn-of-the-subgenres/)
+- [Crossing the Threshold](https://wildwinter.medium.com/crossing-the-threshold-revisited-bf97f8f65020)
+- [The Imitable Process of Ryan Veeder](https://www.rcveeder.net/blog/2016/08/10/the-imitable-process-of-ryan-veeder/)
+- [Four Awesomely Wise Tips To Make Your Game End Well](https://bottomfeeder.substack.com/p/four-awesomely-wise-tips-to-make)
+- [Telling story through gameplay](https://www.gamesindustry.biz/telling-story-through-gameplay)
+- [Introducing Storycrafting](https://www.failbettergames.com/news/introducing-storycrafting)
+- [Why Adventure Games Suck](https://grumpygamer.com/why_adventure_games_suck) (Ron Gilbert)
+- [Moment-based Design](https://wildwinter.medium.com/war-stories-memorable-moments-1ac4e3e46f50)
 
 ## Відео
 - [Sparkling Dialogue: A Masterclass](https://www.youtube.com/watch?v=_vRfNtvFVRo ) (Jon Ingold, Inkle)
@@ -165,7 +182,9 @@ description: Статті та відео по теорії та практиц�
 - [Feeding the Maw: Managing a Live Narrative Game in Fallen London](https://www.youtube.com/watch?v=pZp9g7Iumj8) (Olivia Wood, Failbetter Games)
 - [Rendering Game Worlds in Text](https://www.youtube.com/watch?v=CDDYeJznOhY)
 - [Конференція Narrascope-2020](https://www.youtube.com/playlist?list=PLbTgViUvfche3d2R99wDG1JmKJVBEl2wf)
-- [The Burden of Proof: Narrative Deduction Mechanics for Video Games](https://www.gdcvault.com/play/1027723/The-Burden-of-Proof-Narrative)
+- [The Burden of Proof: Narrative Deduction Mechanics for Video Games](https://www.gdcvault.com/play/1027723/The-Burden-of-Proof-Narrative) (Jon Ingold, Inkle)
+- [All Choice No Consequence: Efficiently Branching Narrative](https://www.youtube.com/watch?v=TEa9aSDHawA) (Cass Phillips, Episode Interactive)
+- [Narrative Sorcery: Coherent Storytelling in an Open World](https://www.youtube.com/watch?v=HZft_U4Fc-U) (Jon Ingold, Inkle)
 
 ## Інші посилання
 - [Awesome Interactive Fiction](https://github.com/tajmone/awesome-interactive-fiction)
