@@ -41,19 +41,22 @@ description: Інструменти та матеріали для створе�
 - [Gruescript](https://versificator.itch.io/gruescript)
 - [Texture](https://texturewriter.com/)
 
-
 ---
 
 ## Графіка
 
+- [Pixabay](https://pixabay.com/)
 - [OpenGameArt](https://opengameart.org/)
 - [Unsplash](https://unsplash.com/)
 - [Reshot](https://www.reshot.com/)
+- [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
+- [Flickr](https://flickr.com/)
 
 ---
 
 ## Шрифти
 
+- [UKRFonts](https://ukrfonts.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [the Ultimate Oldschool Font Pack](https://int10h.org/oldschool-pc-fonts/)
 
@@ -62,11 +65,11 @@ description: Інструменти та матеріали для створе�
 ## Звуки
 
 - [Freesound](https://freesound.org/)
-- [BBC Sound Effects](https://sound-effects.bbcrewind.co.uk/)
 - [GameSounds.xyz](https://gamesounds.xyz/)
 - [Daruma Audio](https://daruma.audio/sfx)
 - [Ambient Mixer](https://www.ambient-mixer.com/)
 - [Zapsplat](https://www.zapsplat.com/)
+- [BBC Sound Effects](https://sound-effects.bbcrewind.co.uk/)
 
 ---
 
@@ -74,11 +77,13 @@ description: Інструменти та матеріали для створе�
 
 - [FreeMusicArchive](https://freemusicarchive.org/)
 - [ccMixter](http://ccmixter.org/)
-- [OneManSymphony](https://onemansymphony.bandcamp.com/)
+- [Pixabay Music](https://pixabay.com/music/)
 - [Incompetech](https://incompetech.com/)
+- [OneManSymphony](https://onemansymphony.bandcamp.com/)
 - [FreePD](https://freepd.com/)
 - [MusOpen](https://musopen.org/)
 
+---
 
 ## Інше
 - [Awesome Interactive Fiction](https://github.com/tajmone/awesome-interactive-fiction), колекція корисних посилань для авторів ІЛ
