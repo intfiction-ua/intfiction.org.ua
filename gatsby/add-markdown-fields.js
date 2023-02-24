@@ -38,6 +38,23 @@ function addMarkdownFields(node, getNode, createNodeField) {
       value: tags,
     });
   }
+
+  // garden
+  if (nodeType === 'garden') {
+    const recordDate = slug.match(/\/([^/]+?)\/$/);
+    const itemDate = recordDate[1];
+    createNodeField({
+      node,
+      name: 'date',
+      value: itemDate,
+    });
+
+    createNodeField({
+      node,
+      name: 'yyyymm',
+      value: itemDate.substring(0, 7),
+    });
+  }
 }
 
 module.exports = addMarkdownFields;

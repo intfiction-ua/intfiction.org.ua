@@ -1,6 +1,7 @@
 const addMarkdownFields = require('./gatsby/add-markdown-fields');
 const articlePagination = require('./gatsby/article-pagination');
 const categoryPagination = require('./gatsby/category-pagination');
+const gardenPagination = require('./gatsby/garden-pagination');
 const tagPagination = require('./gatsby/tag-pagination');
 const templateBuilder = require('./gatsby/template-builder');
 
@@ -15,6 +16,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 exports.createPages = async (args) => {
   await templateBuilder(args);
   await articlePagination(args);
+  await gardenPagination(args);
   await categoryPagination(args);
   await tagPagination(args);
 };

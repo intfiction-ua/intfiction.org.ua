@@ -24,6 +24,14 @@ const filesPages = {
   },
 };
 
+const filesGarden = {
+  resolve: 'gatsby-source-filesystem',
+  options: {
+    name: 'garden',
+    path: './content/garden',
+  },
+};
+
 const gatsbyPluginSass = {
   resolve: 'gatsby-plugin-sass',
   options: {},
@@ -175,6 +183,7 @@ module.exports = {
     filesStatic,
     filesArticles,
     filesPages,
+    filesGarden,
     'gatsby-plugin-react-helmet',
     gatsbyPluginFeed,
     gatsbyPluginSass,
