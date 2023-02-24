@@ -2,45 +2,18 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../layout';
 import SEO from '../components/seo';
-import Pagination from '../components/pagination';
 import GardenDatesList from '../components/garden-dates';
-import { formatDate } from '../utils';
-
-const GardenItem = ({ fields, html }) => {
-  const itemDate = formatDate(fields.date);
-  return (
-    <>
-      <div className="card">
-        <header className="card-header">
-          <p className="card-header-title">{itemDate} -- {fields.yyyymm}</p>
-        </header>
-        <div className="card-content">
-          <div className="is-family-secondary content">
-            <div dangerouslySetInnerHTML={{ __html: html }} />
-          </div>
-        </div>
-      </div>
-      <br />
-    </>
-  );
-};
-
-const GardenList = ({ items }) => (
-  <>
-    {/* Your post list here. */
-      items.map((item) => GardenItem(item.node))
-    }
-  </>
-);
+import GardenList from '../components/garden-list';
 
 const GardenChapter = ({ pageContext, data }) => (
   <Layout>
     <main>
-      <SEO title={`Сад переплетених стежок: ${pageContext.yyyymm}`} />
+      <SEO title="Сад переплетених стежок" />
       <div className="columns">
         <div className="column">
           <GardenList
             items={data.allMarkdownRemark.edges}
+            context={pageContext}
           />
         </div>
         <div className="column is-3">

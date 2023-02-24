@@ -4,34 +4,7 @@ import Layout from '../layout';
 import SEO from '../components/seo';
 import Pagination from '../components/pagination';
 import GardenDatesList from '../components/garden-dates';
-import { formatDate } from '../utils';
-
-const GardenItem = ({ fields, html }) => {
-  const itemDate = formatDate(fields.date);
-  return (
-    <>
-      <div className="card">
-        <header className="card-header">
-          <p className="card-header-title">{itemDate} -- {fields.yyyymm}</p>
-        </header>
-        <div className="card-content">
-          <div className="is-family-secondary content">
-            <div dangerouslySetInnerHTML={{ __html: html }} />
-          </div>
-        </div>
-      </div>
-      <br />
-    </>
-  );
-};
-
-const GardenList = ({ items }) => (
-  <>
-    {/* Your post list here. */
-      items.map((item) => GardenItem(item.node))
-    }
-  </>
-);
+import GardenList from '../components/garden-list';
 
 const Garden = ({ pageContext, data }) => (
   <Layout>
@@ -41,6 +14,7 @@ const Garden = ({ pageContext, data }) => (
         <div className="column">
           <GardenList
             items={data.allMarkdownRemark.edges}
+            context={pageContext}
           />
           <Pagination context={pageContext} />
         </div>
