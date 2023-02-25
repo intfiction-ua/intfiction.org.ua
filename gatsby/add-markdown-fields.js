@@ -10,7 +10,12 @@ function addMarkdownFields(node, getNode, createNodeField) {
   });
 
   // slug
-  const slug = createFilePath({ node, getNode, basePath: 'content' });
+  let slug = createFilePath({ node, getNode, basePath: 'content' });
+  if (nodeType === 'garden') {
+    const d = slug.match(/\/([^/]+?)\/$/);
+    slug = `/${d[1]}/`;
+  }
+
   createNodeField({
     node,
     name: 'slug',
