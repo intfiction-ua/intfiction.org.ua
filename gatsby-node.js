@@ -4,6 +4,7 @@ const categoryPagination = require('./gatsby/category-pagination');
 const gardenPagination = require('./gatsby/garden-pagination');
 const tagPagination = require('./gatsby/tag-pagination');
 const templateBuilder = require('./gatsby/template-builder');
+const addGardenChapters = require('./gatsby/add-garden-chapters');
 
 // generate slug out of path for articles
 exports.onCreateNode = ({ node, getNode, actions }) => {
@@ -19,4 +20,5 @@ exports.createPages = async (args) => {
   await gardenPagination(args);
   await categoryPagination(args);
   await tagPagination(args);
+  await addGardenChapters(args);
 };

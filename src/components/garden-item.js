@@ -1,14 +1,26 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import { formatDate } from '../utils';
 
-const GardenItem = ({ fields, html }) => {
+const GardenItem = ({ fields, html, hideHeader }) => {
   const itemDate = formatDate(fields.date);
+  let header;
+  if (!hideHeader) {
+    header = (
+      <header className="card-header">
+        <Link to={fields.slug} className="hoverable_link">
+          <p className="card-header-title">
+            {itemDate}
+          </p>
+        </Link>
+      </header>
+    );
+  }
+
   return (
     <>
       <div className="card">
-        <header className="card-header">
-          <p className="card-header-title">{itemDate}</p>
-        </header>
+        {header}
         <div className="card-content">
           <div className="is-family-secondary content">
             <div dangerouslySetInnerHTML={{ __html: html }} />

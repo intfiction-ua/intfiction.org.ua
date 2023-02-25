@@ -2,20 +2,6 @@ import React from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import { formatDateM } from '../utils';
 
-const renderGardenDates = (dates, activeClassName) => (
-  dates.sort().map((item) => (
-    <li>
-      <Link
-        to={`/gardenchapter/${item.fieldValue}/`}
-        key={item.fieldValue}
-        activeClassName={activeClassName}
-      >
-        {formatDateM(item.fieldValue)} <span className="tag">{item.totalCount}</span>
-      </Link>
-    </li>
-  ))
-);
-
 const GardenDatesList = ({ activeClassName }) => {
   const data = useStaticQuery(graphql`
     query {
@@ -27,10 +13,31 @@ const GardenDatesList = ({ activeClassName }) => {
       }
     }
   `);
+  const dates = data.allMarkdownRemark.group.sort((a, b) => (a.fieldValue < b.fieldValue ? 1 : -1));
 
   return (
     <ul className="menu-list is-size-6">
-      {renderGardenDates(data.allMarkdownRemark.group, activeClassName)}
+      <li>
+        <Link
+          to="/garden"
+          activeClassName={activeClassName}
+        >
+          Всі пости
+        </Link>
+      </li>
+      {
+        dates.map((item) => (
+          <li key={item.fieldValue}>
+            <Link
+              to={`/gardenchapter/${item.fieldValue}/`}
+              key={item.fieldValue}
+              activeClassName={activeClassName}
+            >
+              {formatDateM(item.fieldValue)} <span className="tag">{item.totalCount}</span>
+            </Link>
+          </li>
+        ))
+      }
     </ul>
   );
 };

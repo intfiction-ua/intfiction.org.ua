@@ -1,14 +1,27 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import GardenItem from './garden-item';
-import { formatDate } from '../utils';
+import { formatDateM } from '../utils';
 
 const GardenList = ({ items, context }) => (
   <>
-    <div className="content">
-      <h2>Сад переплетених стежок{context.yyyymm && ` : ${formatDate(context.yyyymm)}`}</h2>
+    <div className="block content mx-4">
+      <Link to="/garden/" className="hoverable_link">
+        <h2 className="title">
+          Сад переплетених стежок{context.yyyymm && `, ${formatDateM(context.yyyymm)}`}
+        </h2>
+      </Link>
     </div>
     {/* Your post list here. */
-      items.map((item) => GardenItem(item.node))
+      items.map(
+        (item) => (
+          <GardenItem
+            fields={item.node.fields}
+            html={item.node.html}
+            key={item.node.fields.slug}
+          />
+        ),
+      )
     }
   </>
 );

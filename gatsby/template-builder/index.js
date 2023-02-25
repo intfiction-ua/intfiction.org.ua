@@ -2,6 +2,7 @@ const path = require('path');
 
 const articles = require('./articles');
 const pages = require('./pages');
+const garden = require('./garden');
 
 async function templateBuilder({ graphql, actions }) {
   const { createPage } = actions;
@@ -20,6 +21,7 @@ async function templateBuilder({ graphql, actions }) {
 
   await buildByTemplate(articles);
   await buildByTemplate(pages);
+  await buildByTemplate(garden);
 }
 
 module.exports = templateBuilder;
