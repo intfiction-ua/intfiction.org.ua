@@ -5,10 +5,9 @@ import { convert2translit } from '../utils';
 const renderTags = (tags, activeClassName) => (
   tags.sort((a, b) => a.fieldValue.localeCompare(b.fieldValue, 'uk-UA'))
     .map((tag) => (
-      <li>
+      <li key={tag.fieldValue}>
         <Link
           to={`/tag/${convert2translit(tag.fieldValue)}/`}
-          key={tag.fieldValue}
           activeClassName={activeClassName}
         >
           {tag.fieldValue} <span className="tag">{tag.totalCount}</span>

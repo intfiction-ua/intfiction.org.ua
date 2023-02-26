@@ -5,10 +5,9 @@ import { convert2translit } from '../utils';
 const renderCategories = (categories, activeClassName) => (
   categories.sort((a, b) => a.fieldValue.localeCompare(b.fieldValue, 'uk-UA'))
     .map((category) => (
-      <li>
+      <li key={category.fieldValue}>
         <Link
           to={`/category/${convert2translit(category.fieldValue)}/`}
-          key={category.fieldValue}
           activeClassName={activeClassName}
         >
           {category.fieldValue} <span className="tag">{category.totalCount}</span>
