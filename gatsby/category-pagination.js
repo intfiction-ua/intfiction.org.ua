@@ -6,7 +6,10 @@ const ITEMS_PER_PAGE = 5;
 
 const GET_CATEGORIES = `
   query {
-    allMarkdownRemark(limit: 2000) {
+    allMarkdownRemark(
+      filter: { fields: { nodeType: { eq: "article" } } }
+      limit: 2000
+    ) {
       group(field: fields___categories) {
         fieldValue
       }
@@ -18,21 +21,11 @@ const GET_ARTICLES_LIST = `
 query CategoryList($category: String) {
   allMarkdownRemark(
     filter: { fields: { nodeType: { eq: "article" }, categories: { in: [$category] } } }
-    sort: { fields: [frontmatter___date], order: DESC }
   )
   {
     edges {
       node {
-        fields {
-          slug
-          tags
-          categories
-        }
-        excerpt
-        frontmatter {
-          title
-          date
-        }
+        id
       }
     }
   }
@@ -46,10 +39,11 @@ const template = 'src/templates/category.js';
 async function renderCategory(category, createPage, graphql) {
   const categorySlug = convert2translit(category);
   const posts = await graphql(GET_ARTICLES_LIST, { category });
+  const items = posts.data.allMarkdownRemark.edges;
   const component = require.resolve(path.resolve(process.cwd(), template));
   paginate({
     createPage, // The Gatsby `createPage` function
-    items: posts.data.allMarkdownRemark.edges, // An array of objects
+    items, // An array of objects
     itemsPerPage: ITEMS_PER_PAGE, // How many items you want per page
     pathPrefix: `/category/${categorySlug}`, // Creates pages like `/blog`, `/blog/2`, etc
     component, // Just like `createPage()`

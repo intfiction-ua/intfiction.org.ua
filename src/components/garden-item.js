@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import { formatDate } from '../utils';
 
 const GardenItem = ({ fields, html, hideHeader }) => {
-  const itemDate = formatDate(fields.date);
+  const itemDate = formatDate(fields.postdate);
   let header;
   if (!hideHeader) {
     header = (

@@ -33,7 +33,7 @@ export const pageQuery = graphql`
   query ($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       filter: { fields: { nodeType: { eq: "garden" } } }
-      sort: { fields: [fields___date], order: DESC }
+      sort: { fields: [fields___postdate], order: DESC }
       skip: $skip
       limit: $limit
     )
@@ -42,7 +42,7 @@ export const pageQuery = graphql`
         node {
           fields {
             slug
-            date
+            postdate
             yyyymm
           }
           html

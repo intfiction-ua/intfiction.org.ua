@@ -7,21 +7,11 @@ const GET_ARTICLES_LIST = `
 query {
   allMarkdownRemark(
     filter: { fields: { nodeType: { eq: "article" } } }
-    sort: { fields: [frontmatter___date], order: DESC }
   )
   {
     edges {
       node {
-        fields {
-          slug
-          tags
-          categories
-        }
-        excerpt
-        frontmatter {
-          title
-          date
-        }
+        id
       }
     }
   }
@@ -33,10 +23,11 @@ const template = 'src/templates/article-list.js';
 async function articlePagination({ graphql, actions }) {
   const { createPage } = actions;
   const posts = await graphql(GET_ARTICLES_LIST);
+  const items = posts.data.allMarkdownRemark.edges;
   const component = require.resolve(path.resolve(process.cwd(), template));
   paginate({
     createPage, // The Gatsby `createPage` function
-    items: posts.data.allMarkdownRemark.edges, // An array of objects
+    items, // An array of objects
     itemsPerPage: ITEMS_PER_PAGE, // How many items you want per page
     pathPrefix: '/articles', // Creates pages like `/blog`, `/blog/2`, etc
     component, // Just like `createPage()`

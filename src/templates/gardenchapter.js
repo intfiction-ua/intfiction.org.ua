@@ -31,14 +31,14 @@ export const pageQuery = graphql`
   query ($yyyymm: Date) {
     allMarkdownRemark(
       filter: { fields: { nodeType: { eq: "garden" }, yyyymm: { eq: $yyyymm } } }
-      sort: { fields: [fields___date], order: DESC }
+      sort: { fields: [fields___postdate], order: DESC }
     )
     {
       edges {
         node {
           fields {
             slug
-            date
+            postdate
             yyyymm
           }
           html

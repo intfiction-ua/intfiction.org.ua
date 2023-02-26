@@ -6,7 +6,10 @@ const ITEMS_PER_PAGE = 5;
 
 const GET_TAGS = `
   query {
-    allMarkdownRemark(limit: 2000) {
+    allMarkdownRemark(
+      filter: { fields: { nodeType: { eq: "article" } } }
+      limit: 2000
+    ) {
       group(field: fields___tags) {
         fieldValue
       }
@@ -18,21 +21,11 @@ const GET_ARTICLES_LIST = `
 query TagList($tag: String) {
   allMarkdownRemark(
     filter: { fields: { nodeType: { eq: "article" }, tags: { in: [$tag] } } }
-    sort: { fields: [frontmatter___date], order: DESC }
   )
   {
     edges {
       node {
-        fields {
-          slug
-          tags
-          categories
-        }
-        excerpt
-        frontmatter {
-          title
-          date
-        }
+        id
       }
     }
   }

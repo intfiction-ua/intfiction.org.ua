@@ -50,7 +50,7 @@ function addMarkdownFields(node, getNode, createNodeField) {
     const itemDate = recordDate[1];
     createNodeField({
       node,
-      name: 'date',
+      name: 'postdate',
       value: itemDate,
     });
 

@@ -8,7 +8,7 @@ import { formatDate } from '../utils';
 const GardenItemPage = ({ data }) => {
   const postNode = data.markdownRemark;
   const { html, excerpt, fields } = postNode;
-  const itemDate = formatDate(fields.date);
+  const itemDate = formatDate(fields.postdate);
   const title = `Сад переплетених стежок, ${itemDate}`;
   return (
     <Layout>
@@ -42,7 +42,7 @@ export const pageQuery = graphql`
       html
       fields {
         slug
-        date
+        postdate
       }
     }
   }
