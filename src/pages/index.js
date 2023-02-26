@@ -3,6 +3,7 @@ import Layout from '../layout';
 import SEO from '../components/seo';
 import Sidebar from '../components/main-sidebar';
 import LastArticles from '../components/last-articles';
+import LastGarden from '../components/last-garden';
 
 const Main = () => (
   <Layout>
@@ -14,6 +15,7 @@ const Main = () => (
         </div>
         <div className="column">
           <LastArticles />
+          <LastGarden />
         </div>
       </div>
     </main>

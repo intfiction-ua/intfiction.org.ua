@@ -1,15 +1,6 @@
 import React from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import { formatDate } from '../utils';
-/*
-const ArticleLink = ({ item }) => (
-  <>
-  
-    <span className="tag" style={{width: '120px', 'justify-content': 'left'}}>{formatDate(item.frontmatter.date)}</span>
-    <Link to={item.fields.slug}>{item.frontmatter.title}</Link>
-  </>
-);
-*/
 
 const ArticleLink = ({ item }) => (
   <div className="columns">
@@ -45,10 +36,9 @@ const LastArticles = () => {
       }
     }
   `);
-  console.log(data);
 
   return (
-    <div className="message is-secondary">
+    <div className="message">
       <div className="message-body">
         {data.allMarkdownRemark.edges.map(
           (item) => (<ArticleLink item={item.node} key={item.node.fields.slug} />),
