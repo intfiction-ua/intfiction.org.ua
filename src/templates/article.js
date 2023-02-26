@@ -45,7 +45,7 @@ export default Article;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query ArticleBySlug($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(fields: { nodeType: { eq: "article" }, slug: { eq: $slug } }) {
       html
       excerpt
       frontmatter {

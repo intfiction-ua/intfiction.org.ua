@@ -38,7 +38,7 @@ export default GardenItemPage;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query GardenItemBySlug($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(fields: { nodeType: { eq: "garden" }, slug: { eq: $slug } }) {
       html
       fields {
         slug

@@ -29,7 +29,7 @@ export default Page;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query PageBySlug($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(fields: { nodeType: { eq: "page" }, slug: { eq: $slug } }) {
       html
       frontmatter {
         title
