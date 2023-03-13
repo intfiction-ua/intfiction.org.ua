@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import { formatDateM } from '../utils';
 import Layout from '../layout';
 import SEO from '../components/seo';
 import GardenDatesList from '../components/garden-dates';
@@ -8,7 +9,7 @@ import GardenList from '../components/garden-list';
 const GardenChapter = ({ pageContext, data }) => (
   <Layout>
     <main>
-      <SEO title="Сад переплетених стежок" />
+      <SEO title={`Сад переплетених стежок, ${formatDateM(pageContext.yyyymm)}`} />
       <div className="columns">
         <div className="column">
           <GardenList

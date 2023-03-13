@@ -40,6 +40,7 @@ export const pageQuery = graphql`
   query GardenItemBySlug($slug: String!) {
     markdownRemark(fields: { nodeType: { eq: "garden" }, slug: { eq: $slug } }) {
       html
+      excerpt
       fields {
         slug
         postdate
