@@ -1,5 +1,7 @@
 const config = require('./src/config');
 
+const formatDate = (date) => new Date(date).toLocaleDateString('uk-UA', { year: 'numeric', month: 'long', day: 'numeric' });
+
 const filesStatic = {
   resolve: 'gatsby-source-filesystem',
   options: {
@@ -121,9 +123,9 @@ const gatsbyPluginFeed = {
       {
         serialize: ({ query: { site, allMarkdownRemark } }) => (
           allMarkdownRemark.nodes.map((node) => ({
-            ...node.frontmatter,
-            description: node.excerpt,
-            date: node.frontmatter.date,
+            title: formatDate(node.fields.postdate),
+            description: node.html,
+            date: node.fields.postdate,
             url: site.siteMetadata.siteUrl + node.fields.slug,
             guid: site.siteMetadata.siteUrl + node.fields.slug,
             // custom_elements: [ { 'content:encoded': node.html } ],
@@ -132,22 +134,17 @@ const gatsbyPluginFeed = {
         query: `
           query {
             allMarkdownRemark(
-              filter: { fields: { nodeType: { eq: "article" } } }
-              sort: { fields: [frontmatter___date], order: DESC }
+              filter: { fields: { nodeType: { eq: "garden" } } }
+              sort: { fields: [fields___postdate], order: DESC }
               limit: 10
             )
             {
               nodes {
                 fields {
                   slug
-                  tags
-                  categories
+                  postdate
                 }
-                excerpt
-                frontmatter {
-                  title
-                  date
-                }
+                html
               }
             }
           }
