@@ -45,13 +45,13 @@ description: Інструменти та матеріали для створе�
 
 ## Інструменти
 
-- [Borogove](https://borogove.app/)
-- [EzGif](https://ezgif.com/)
-- [TinyPNG](https://tinypng.com/)
-- [ASCII Generator](http://www.network-science.de/ascii/)
-- [Ambient Mixer](https://www.ambient-mixer.com/)
-- [Pixelator](http://pixelatorapp.com/)
-- [G'MIC](https://gmic.eu/)
+- [Borogove](https://borogove.app/) - онлайн-редактор для Inform, Hugo, Dialog та Ink
+- [EzGif](https://ezgif.com/) - онлайн-редактор GIF-файлів
+- [TinyPNG](https://tinypng.com/) - оптимізація розміру файлів зображень
+- [ASCII Generator](http://www.network-science.de/ascii/) - генератор написів різними стилями ASCII-графіки
+- [Ambient Mixer](https://www.ambient-mixer.com/) - створення амбієнтного звуку
+- [Pixelator](http://pixelatorapp.com/) - конвертор зображень в піксель-арт
+- [G'MIC](https://gmic.eu/) - колекція фільтрів та ефектів для графічного редактора [GIMP](https://www.gimp.org/)
 
 ---
 
@@ -69,6 +69,8 @@ description: Інструменти та матеріали для створе�
 - [Artvee](https://artvee.com/)
 - [Old Book Art](https://www.oldbookart.com/)
 - [Smithsonian Open Access](https://www.si.edu/openaccess)
+
+---
 
 ### Значки
 
