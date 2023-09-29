@@ -69,3 +69,15 @@ code {
 .content pre {
   white-space: pre-wrap;
 }
+
+.banner {
+  background-image: url('/images/festival-cover-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  @include mobile {
+    margin-top: 0rem;
+  }
+}
