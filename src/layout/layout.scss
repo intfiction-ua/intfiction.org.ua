@@ -76,8 +76,7 @@ code {
   background-position: center;
   text-align: center;
   padding: 1rem;
-  margin-top: 1rem;
   @include mobile {
-    margin-top: 0rem;
+    margin-top: -1.5rem;
   }
 }
