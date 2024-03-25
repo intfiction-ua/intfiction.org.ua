@@ -23,6 +23,9 @@ const Sidebar = () => (
     <SidebarTile icon="/images/white-book.png">
       <Link to="/page/what-is-interactive-literature/" className="subtitle is-fullwidth">Що таке ІЛ</Link>
     </SidebarTile>
+    <SidebarTile icon="/images/bookshelf.png">
+      <Link to="/page/selected-works/" className="subtitle is-fullwidth">Обрані твори</Link>
+    </SidebarTile>
     <SidebarTile icon="/images/maze.png">
       <Link to="/garden/" className="subtitle">Новини</Link>
     </SidebarTile>
