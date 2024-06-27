@@ -5,11 +5,8 @@ import { formatDateM } from '../utils';
 const GardenDatesList = ({ activeClassName }) => {
   const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark(
-        filter: { fields: { nodeType: { eq: "garden" } } }
-        limit: 2000
-      ) {
-        group(field: fields___yyyymm) {
+      allMarkdownRemark(filter: {fields: {nodeType: {eq: "garden"}}}, limit: 2000) {
+        group(field: {fields: {yyyymm: SELECT}}) {
           fieldValue
           totalCount
         }

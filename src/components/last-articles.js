@@ -17,11 +17,10 @@ const LastArticles = () => {
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(
-        filter: { fields: { nodeType: { eq: "article" } } }
-        sort: { fields: [frontmatter___date], order: DESC }
+        filter: {fields: {nodeType: {eq: "article"}}}
+        sort: {frontmatter: {date: DESC}}
         limit: 5
-      )
-      {
+      ) {
         edges {
           node {
             fields {

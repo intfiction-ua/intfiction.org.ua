@@ -6,11 +6,8 @@ const ITEMS_PER_PAGE = 5;
 
 const GET_CATEGORIES = `
   query {
-    allMarkdownRemark(
-      filter: { fields: { nodeType: { eq: "article" } } }
-      limit: 2000
-    ) {
-      group(field: fields___categories) {
+    allMarkdownRemark(filter: {fields: {nodeType: {eq: "article"}}}, limit: 2000) {
+      group(field: {fields: {categories: SELECT}}) {
         fieldValue
       }
     }

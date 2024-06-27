@@ -2,11 +2,8 @@ const path = require('path');
 
 const query = `
   query {
-    allMarkdownRemark(
-      filter: { fields: { nodeType: { eq: "garden" } } }
-      limit: 2000
-    ) {
-      group(field: fields___yyyymm) {
+    allMarkdownRemark(filter: {fields: {nodeType: {eq: "garden"}}}, limit: 2000) {
+      group(field: {fields: {yyyymm: SELECT}}) {
         fieldValue
         totalCount
       }

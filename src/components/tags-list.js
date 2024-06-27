@@ -20,7 +20,7 @@ const TagsList = ({ activeClassName }) => {
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(limit: 2000) {
-        group(field: fields___tags) {
+        group(field: {fields: {tags: SELECT}}) {
           fieldValue
           totalCount
         }

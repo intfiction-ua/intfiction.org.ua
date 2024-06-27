@@ -31,10 +31,9 @@ export default GardenChapter;
 export const pageQuery = graphql`
   query ($yyyymm: Date) {
     allMarkdownRemark(
-      filter: { fields: { nodeType: { eq: "garden" }, yyyymm: { eq: $yyyymm } } }
-      sort: { fields: [fields___postdate], order: DESC }
-    )
-    {
+      filter: {fields: {nodeType: {eq: "garden"}, yyyymm: {eq: $yyyymm}}}
+      sort: {fields: {postdate: DESC}}
+    ) {
       edges {
         node {
           fields {

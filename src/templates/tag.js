@@ -23,28 +23,27 @@ const ArticlesByTag = ({ pageContext, data }) => (
 export default ArticlesByTag;
 
 export const pageQuery = graphql`
-  query TagPage($tag: String, $skip: Int!, $limit: Int!) {
-    allMarkdownRemark(
-      filter: { fields: { nodeType: { eq: "article" }, tags: { in: [$tag] } } }
-      sort: { fields: [frontmatter___date], order: DESC }
-      skip: $skip
-      limit: $limit
-    )
-    {
-      edges {
-        node {
-          fields {
-            slug
-            tags
-            categories
-          }
-          excerpt
-          frontmatter {
-            title
-            date
-          }
+query TagPage($tag: String, $skip: Int!, $limit: Int!) {
+  allMarkdownRemark(
+    filter: {fields: {nodeType: {eq: "article"}, tags: {in: [$tag]}}}
+    sort: {frontmatter: {date: DESC}}
+    skip: $skip
+    limit: $limit
+  ) {
+    edges {
+      node {
+        fields {
+          slug
+          tags
+          categories
+        }
+        excerpt
+        frontmatter {
+          title
+          date
         }
       }
     }
   }
+}
 `;

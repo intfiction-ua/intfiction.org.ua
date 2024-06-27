@@ -6,11 +6,10 @@ const LastGarden = () => {
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(
-        filter: { fields: { nodeType: { eq: "garden" } } }
-        sort: { fields: [fields___postdate], order: DESC }
+        filter: {fields: {nodeType: {eq: "garden"}}}
+        sort: {fields: {postdate: DESC}}
         limit: 5
-      )
-      {
+      ) {
         edges {
           node {
             fields {

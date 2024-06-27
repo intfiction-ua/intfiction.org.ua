@@ -21,12 +21,11 @@ export default Articles;
 export const pageQuery = graphql`
   query ($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      filter: { fields: { nodeType: { eq: "article" } } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {fields: {nodeType: {eq: "article"}}}
+      sort: {frontmatter: {date: DESC}}
       skip: $skip
       limit: $limit
-    )
-    {
+    ) {
       edges {
         node {
           fields {

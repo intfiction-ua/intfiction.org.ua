@@ -25,12 +25,11 @@ export default ArticlesByCategory;
 export const pageQuery = graphql`
   query CategoryPage($category: String, $skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      filter: { fields: { nodeType: { eq: "article" }, categories: { in: [$category] } } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {fields: {nodeType: {eq: "article"}, categories: {in: [$category]}}}
+      sort: {frontmatter: {date: DESC}}
       skip: $skip
       limit: $limit
-    )
-    {
+    ) {
       edges {
         node {
           fields {

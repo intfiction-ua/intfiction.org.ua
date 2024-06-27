@@ -32,12 +32,11 @@ export default Garden;
 export const pageQuery = graphql`
   query ($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      filter: { fields: { nodeType: { eq: "garden" } } }
-      sort: { fields: [fields___postdate], order: DESC }
+      filter: {fields: {nodeType: {eq: "garden"}}}
+      sort: {fields: {postdate: DESC}}
       skip: $skip
       limit: $limit
-    )
-    {
+    ) {
       edges {
         node {
           fields {
