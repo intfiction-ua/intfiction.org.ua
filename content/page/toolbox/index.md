@@ -85,7 +85,6 @@ description: Інструменти та матеріали для створе�
 - [Freesound](https://freesound.org/)
 - [GameAudio GDC](https://sonniss.com/gameaudiogdc)
 - [GameSounds.xyz](https://gamesounds.xyz/)
-- [Daruma Audio](https://daruma.audio/sfx)
 - [Ambient Mixer](https://www.ambient-mixer.com/)
 - [Zapsplat](https://www.zapsplat.com/)
 - [freeSFX](https://freesfx.co.uk/)
