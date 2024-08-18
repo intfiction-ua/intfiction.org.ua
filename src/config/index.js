@@ -25,7 +25,7 @@ const config = {
     'ink',
   ],
   siteRss: '/rss.xml',
-  siteMap: '/sitemap/sitemap-index.xml',
+  siteMap: '/sitemap-index.xml',
   siteLanguage: 'uk',
   siteLocale: 'uk_UA',
   gtagId: 'G-BTT1N2WZZT', // Google Analytics tag
