@@ -118,7 +118,8 @@ description: З чого почати знайомство з інтеракти
 
 <div style="clear: both" />
 
-* [**Читати онлайн**](https://xrafstar.monster/games/twine/wtwla/)
+* [**Читати онлайн українською**](https://technix.itch.io/wtwla)
+* [Читати онлайн англійською](https://xrafstar.monster/games/twine/wtwla/)
 * [Сторінка на IFDB](https://ifdb.org/viewgame?id=445d989vuwlh4cvz) 
 
 
