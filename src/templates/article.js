@@ -29,6 +29,8 @@ const Article = ({ data }) => {
             date={frontmatter.date}
             categories={fields.categories}
             tags={fields.tags}
+            author={frontmatter.author}
+            isTranslation={!!frontmatter.translation}
           />
           {frontmatter.translation && <TranslationInfo content={frontmatter.translation} />}
           <hr />
