@@ -12,17 +12,17 @@ description: Статті та відео по теорії та практиц�
 - [A Writer's Guide to Interactive Fiction](https://eblong.com/zarf/essays/if-for-writers.html) 
 - [Ian Livingstone’s Top Tips for Interactive Fiction](https://medium.com/hello-words/ian-livingstones-top-tips-for-interactive-fiction-df16d987542e)
 - Серія статей Бруно Діаса "Making interactive fiction":
-    - [Scope](https://sub-q.com/making-interactive-fiction-scope/)
-    - [Branching Choices](https://sub-q.com/making-interactive-fiction-branching-choices/)
-    - [Going Beyond "test your stuff"](https://sub-q.com/making-interactive-fiction-going-beyond-test-stuff/)
-    - [Using Generative Prose](https://sub-q.com/making-interactive-fiction-using-generative-prose/)
-    - [Narrative Design for Writers (part 1)](https://sub-q.com/making-interactive-fiction-narrative-design-for-writers-part-1/)
-    - [Narrative Design for Writers (part 2)](https://sub-q.com/making-interactive-fiction-narrative-design-for-writers-part-2/)
-    - [Scenes](https://sub-q.com/making-interactive-fiction-scenes/)
-    - [Adapting from Other Genres](https://sub-q.com/making-if-adapting/)
-    - [The Branch and the Merge](https://sub-q.com/making-interactive-fiction-the-branch-and-the-merge/)
-    - [Interiority](https://sub-q.com/making-interactive-fiction-interiority/)
-    - [Anthologies](https://sub-q.com/making-interactive-fiction-anthologies/)
+    - [Scope](https://web.archive.org/web/20230926133623/https://sub-q.com/making-interactive-fiction-scope/)
+    - [Branching Choices](https://web.archive.org/web/20230926133623/https://sub-q.com/making-interactive-fiction-branching-choices/)
+    - [Going Beyond "test your stuff"](https://web.archive.org/web/20230926133623/https://sub-q.com/making-interactive-fiction-going-beyond-test-stuff/)
+    - [Using Generative Prose](https://web.archive.org/web/20230926133623/https://sub-q.com/making-interactive-fiction-using-generative-prose/)
+    - [Narrative Design for Writers (part 1)](https://web.archive.org/web/20230926133623/https://sub-q.com/making-interactive-fiction-narrative-design-for-writers-part-1/)
+    - [Narrative Design for Writers (part 2)](https://web.archive.org/web/20230926133623/https://sub-q.com/making-interactive-fiction-narrative-design-for-writers-part-2/)
+    - [Scenes](https://web.archive.org/web/20230926133623/https://sub-q.com/making-interactive-fiction-scenes/)
+    - [Adapting from Other Genres](https://web.archive.org/web/20230926133623/https://sub-q.com/making-if-adapting/)
+    - [The Branch and the Merge](https://web.archive.org/web/20230926133623/https://sub-q.com/making-interactive-fiction-the-branch-and-the-merge/)
+    - [Interiority](https://web.archive.org/web/20230926133623/https://sub-q.com/making-interactive-fiction-interiority/)
+    - [Anthologies](https://web.archive.org/web/20230926133623/https://sub-q.com/making-interactive-fiction-anthologies/)
 
 ### Ідея та реалізація
 - [Getting Started](https://emshort.blog/how-to-play/writing-if/my-articles/getting-started/)
@@ -30,6 +30,7 @@ description: Статті та відео по теорії та практиц�
 - [Macro to Micro Ideas](https://emshort.blog/2021/10/05/mailbag-macro-to-micro-ideas/)
 - [How I Find/Steal/Grind Out My Game Ideas](https://bottomfeeder.substack.com/p/how-i-findstealgrind-out-my-game)
 - [13 Tips For Writing a Good Text Adventure Game](https://www.davidepesce.com/2020/02/26/13-tips-for-writing-a-good-text-adventure-game/)
+- [How We Plan a ChoiceScript Game](https://www.choiceofgames.com/2010/05/planning-a-choicescript-game/)
 
 ### Парсер
 - [Towards a Theory of Parserless Parser Interfaces](http://brunodias.space/2017/05/06/parserless-parser/)
@@ -73,12 +74,15 @@ description: Статті та відео по теорії та практиц�
 - [Node-Based Scenario Design](http://thealexandrian.net/wordpress/7949/roleplaying-games/node-based-scenario-design-part-1-the-plotted-approach)
 - [Plot. It's a Problem.](https://emshort.blog/2021/08/10/mailbag-plot-its-a-problem/)
 - [Multiple middles](https://gutefabrik.com/craft-multiple-middles/)
+- [The secret ingredient to coming up with good ideas for a story](https://docseuss.medium.com/the-secret-ingredient-to-coming-up-with-good-ideas-for-a-story-2b10ed4a1b5f)
 
 ### Персонажі
 - [Worldbuilding With NPC Dialogue: A Beginner's Guide](https://www.gamedeveloper.com/design/worldbuilding-with-npc-dialogue-a-beginner-s-guide)
 
 ### Діалоги
 - [Modeling conversation flow: types of NPC Initiative](https://emshort.blog/2009/07/22/modeling-conversation-flow-types-of-npc-initiative/)
+- [Dialogue Expressiveness in Mask of the Rose](https://emshort.blog/2023/11/22/dialogue-expressiveness-in-mask-of-the-rose/)
+- [Writing Better Dialogue: A 2 Day Workshop](https://gutefabrik.com/craft-writing-better-dialogue-a-2-day-workshop/)
 
 ### Наратив
 - [Readerly Experiments in Narrative Form](https://emshort.blog/2016/03/03/readerly-experiments-in-narrative-form/)
@@ -88,6 +92,8 @@ description: Статті та відео по теорії та практиц�
 - [Narrative Design Tips I Wish I'd Known](https://www.gamasutra.com/blogs/DavidKuelz/20160418/270698/Narrative_Design_Tips_I_Wish_Id_Known.php)
 - [Storytelling through fragments and situations](https://frictionalgames.blogspot.com/2010/03/storytelling-through-fragments-and.html)
 - [How the player becomes the protagonist](https://frictionalgames.blogspot.com/2010/11/how-player-becomes-protagonist.html)
+- Johnnemann Nordhagen, "Narrative Design 101": "[What is Narrative Design](https://johnnemann.medium.com/narrative-design-101-what-is-narrative-design-d14c0ecc391f)", "[Game Analysis, Plus Some Tools](https://johnnemann.medium.com/narrative-design-101-game-analysis-plus-some-tools-dce500906088)", "[Practical Narrative Design](https://johnnemann.medium.com/narrative-design-101-practical-narrative-design-6721472b920f)"
+- [Narrative States](https://emshort.blog/2019/11/23/narrative-states/)
 
 
 ## Письменництво
@@ -103,6 +109,7 @@ description: Статті та відео по теорії та практиц�
 - [How to remove the frustration of reading in games](https://www.gamedeveloper.com/design/how-to-remove-the-frustration-of-reading-in-games)
 - [Ten Ways to Inspire Your Description](https://mythcreants.com/blog/ten-ways-to-inspire-your-description/)
 - [Six Common Storytelling Problems in New Manuscripts](https://mythcreants.com/blog/six-common-storytelling-problems-in-new-manuscripts/)
+- ["Lore" is a trap and will kill your story if you let it. So what can we do about it?](https://docseuss.medium.com/lore-is-a-trap-and-will-kill-your-story-if-you-let-it-so-what-can-we-do-about-it-9f84850980e3)
 
 
 ### Різне
@@ -116,6 +123,7 @@ description: Статті та відео по теорії та практиц�
 - [What we can learn from indie fiction authors](https://www.gamedeveloper.com/business/what-we-can-learn-from-indie-fiction-authors)
 - [The Problem Of Failure](https://medium.com/@inklestudios/the-problem-of-failure-518ec9c1c53e)
 - [Mishaps in the preview text of choice-based adventure games](https://www.destructoid.com/mishaps-in-the-preview-text-of-choice-based-adventure-games-story-beat/)
+- [Tips for game writers](https://web.archive.org/web/20250107033434/https://cohost.org/nomnomnami/post/1353545-tips-for-game-writer)
 
 ## Практика
 
@@ -123,14 +131,18 @@ description: Статті та відео по теорії та практиц�
 - [Plot-shaped Level Design](https://emshort.blog/2016/05/18/plot-shaped-level-design/)
 - [Small plotting trick for Choice-of Work](https://emshort.blog/2017/04/01/small-plotting-trick-for-choice-of-work/)
 - [Player agency in an open world, versus combinatorial explosion](https://filiph.medium.com/player-agency-in-an-open-world-versus-combinatorial-explosion-5a6bcd7d0d38)
+- [Changeable minds](https://medium.com/@inklestudios/changable-minds-d5d434772462)
+- [Detective Game Design Problems](https://digitales.games/blog/detective-game-design-problems)
 
 ### Математика і баланс
 - [A Bestiary of Functions for Systems Designers](https://brunodias.dev/2021/03/19/functions-for-system-designers.html)
 - [How To Balance An RPG](https://kotaku.com/how-to-balance-an-rpg-1625516832) (Josh Sawyer)
 - [Balance in Single-Player CRPGs](https://jesawyer.tumblr.com/post/161302725596/balance-in-single-player-crpgs) (Josh Sawyer)
+- [Take a Chance: The Illusion of Randomness in Games](https://www.gamedeveloper.com/design/take-a-chance-the-illusion-of-randomness-in-games)
 
 ### Пазли
 - [Puzzle Dependency Charts](https://grumpygamer.com/puzzle_dependency_charts)
+- [How to make a good puzzle](https://auroriax.com/puzzle-explorable/)
 
 ### Сторілети
 - [Storylets: you want them](https://emshort.blog/2019/11/29/storylets-you-want-them/)
@@ -153,6 +165,9 @@ description: Статті та відео по теорії та практиц�
 - [How to design for impact and narrative variance with *Roadwarden*](https://www.gamedeveloper.com/design/deep-dive-roadwarden)
 - [Curating meaningful multiplayer narrative choices in *Doomsday Paradise*](https://www.gamedeveloper.com/design/deep-dive-multiplayer-narrative-in-doomsday-paradise)
 - [Rebalancing *Bee*](https://emshort.blog/2022/09/06/rebalancing-bee/)
+- [Behind “*The Bloody Wallpaper*”: Designing Fallen London’s 100th Exceptional Story](https://the-rosebush.com/2023/11/behind-the-bloody-wallpaper/)
+- [Cultivating randomness in the peculiar branching narrative of *Astronaut: The Best*](https://www.gamedeveloper.com/design/deep-dive-branching-x-randomness-and-the-peculiar-narrative-structure-of-astronaut-the-best)
+
 
 ### Різне
 - [A Procedurally Generated Wilderness (In Text)](http://www.sibylmoon.com/a-procedurally-generated-wilderness/)
@@ -169,6 +184,8 @@ description: Статті та відео по теорії та практиц�
 - [Introducing Storycrafting](https://www.failbettergames.com/news/introducing-storycrafting)
 - [Why Adventure Games Suck](https://grumpygamer.com/why_adventure_games_suck) (Ron Gilbert)
 - [Moment-based Design](https://wildwinter.medium.com/war-stories-memorable-moments-1ac4e3e46f50)
+- [Iterative narrative design for video games - an indie approach](https://www.gamedeveloper.com/production/iterative-narrative-design-for-video-games-an-indie-approach)
+- [Why you and your game will benefit from theme driven design](https://www.gamedeveloper.com/design/why-you-and-your-game-will-benefit-from-theme-driven-design)
 
 ## Відео
 - [Sparkling Dialogue: A Masterclass](https://www.youtube.com/watch?v=_vRfNtvFVRo ) (Jon Ingold, Inkle)
@@ -182,11 +199,19 @@ description: Статті та відео по теорії та практиц�
 - [Feeding the Maw: Managing a Live Narrative Game in Fallen London](https://www.youtube.com/watch?v=pZp9g7Iumj8) (Olivia Wood, Failbetter Games)
 - [Rendering Game Worlds in Text](https://www.youtube.com/watch?v=CDDYeJznOhY)
 - [Конференція Narrascope-2020](https://www.youtube.com/playlist?list=PLbTgViUvfche3d2R99wDG1JmKJVBEl2wf)
+- [Конференція Narrascope-2023](https://www.youtube.com/playlist?list=PLbTgViUvfchf4fKjmburFYzfxapMhNhvz)
 - [The Burden of Proof: Narrative Deduction Mechanics for Video Games](https://www.gdcvault.com/play/1027723/The-Burden-of-Proof-Narrative) (Jon Ingold, Inkle)
 - [All Choice No Consequence: Efficiently Branching Narrative](https://www.youtube.com/watch?v=TEa9aSDHawA) (Cass Phillips, Episode Interactive)
 - [Narrative Sorcery: Coherent Storytelling in an Open World](https://www.youtube.com/watch?v=HZft_U4Fc-U) (Jon Ingold, Inkle)
+- [Further Up and Further In: Making Richer Gameplay Narratives](https://www.youtube.com/watch?v=jX6kSpr5fl8) (Jon Ingold, Inkle)
+- [How to Write a Gamebook](https://www.youtube.com/playlist?list=PLIHDOnEpDl4C7n1mcaRZGhTMKBMS5LU_2) (Michael J. Ward)
+- [Harvesting Interactive Fiction](https://www.youtube.com/watch?v=EXW1ts6tZh4) (Heather Albano, Choice of Games)
+- [The Great War Between Interactivity and Narrative](https://www.youtube.com/watch?v=SbsmcKN5-_A) (Andrew Plotkin)
+- [1985: Making Text Adventure Games](https://www.youtube.com/watch?v=qXAubRZ-qjw)
+
 
 ## Інші посилання
+- [50 Years of Text Games](https://if50.textories.com/)
 - [Awesome Interactive Fiction](https://github.com/tajmone/awesome-interactive-fiction)
 - [GDC Vault](https://www.gdcvault.com/)
 - [IF Interfaces](https://www.pinterest.com/emshortif/if-interfaces/)
