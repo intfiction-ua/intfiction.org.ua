@@ -25,7 +25,7 @@ const GardenItemPage = ({ data }) => {
             </h2>
           </Link>
         </div>
-        <div className="content is-family-secondary mx-4">
+        <div className="content is-family-secondary">
           <GardenItem fields={fields} html={html} hideHeader />
         </div>
       </main>
