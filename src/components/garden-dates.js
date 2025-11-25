@@ -34,7 +34,7 @@ const GardenDatesList = ({ activeClassName }) => {
     accumulator[key].push(item);
     return accumulator;
   }, {});
-  const yearList = Object.keys(years).sort((a, b) => (a.fieldValue < b.fieldValue ? 1 : -1));
+  const yearList = Object.keys(years).sort((a, b) => (a.fieldValue > b.fieldValue ? 1 : -1));
 
   return (
     <ul className="menu-list is-size-6">
