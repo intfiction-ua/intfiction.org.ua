@@ -43,7 +43,7 @@ const GardenDatesList = ({ activeClassName }) => {
           to="/garden"
           activeClassName={activeClassName}
         >
-          Всі пости
+          Всі дописи
         </Link>
       </li>
       {
